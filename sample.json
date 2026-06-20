@@ -1,0 +1,28 @@
+{
+  "kind": "family-tree",
+  "title": "Sample family tree",
+  "members": [
+    { "id": "gd", "name": "Grandad", "born_y": "1940" },
+    { "id": "gm", "name": "Granny", "born_y": "1942", "has_died": true, "died_y": "2019" },
+    { "id": "dad", "name": "Dad", "born_y": "1965" },
+    { "id": "mum", "name": "Mum", "born_y": "1967" },
+    { "id": "unc", "name": "Uncle", "born_y": "1969" },
+    { "id": "kid1", "name": "Alex", "born_y": "1992" },
+    { "id": "kid2", "name": "Sam", "born_y": "1995" }
+  ],
+  "partners": [
+    { "a": "gd", "b": "gm", "married": true, "m_d": null, "m_m": null, "m_y": "1963" },
+    { "a": "dad", "b": "mum", "married": true, "m_d": null, "m_m": null, "m_y": "1990" }
+  ],
+  "parents": [
+    { "parent": "gd", "child": "dad" },
+    { "parent": "gm", "child": "dad" },
+    { "parent": "gd", "child": "unc" },
+    { "parent": "gm", "child": "unc" },
+    { "parent": "dad", "child": "kid1" },
+    { "parent": "mum", "child": "kid1" },
+    { "parent": "dad", "child": "kid2" },
+    { "parent": "mum", "child": "kid2" }
+  ],
+  "siblings": []
+}
